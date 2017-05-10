@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MusicPlay</string>
+    <string name="play_now_text">This activity will contain the recently played or added music.
+        The activity will be linked to the library(I do not know how to do this yet).
+        The user will have access to the activity by pressing
+        the music note ImageButton and exit it by pressing the back button.
+        Resubmitting: For the functionality I think I will have to use The MediaPlayer class in combination with  Media and MediaView classes
+    </string>
+    <string name="library_text">This activity will contain all the music from the device. It can be accessed
+    from the main activity by pressing the library button.I will have to link it somehow to the device memory.
+        Resubmitting: I think I will have to use AudioManager class for getting to the device library
+    </string>
+    <string name="main_activity_text">As soon as I ll know how to implement these, I will add  a drawer menu
+        and a search button on the options menu :)
+    </string>
+    <string name="favorites_text">This activity will contain the list of the users favorites. It will somehow select
+        the most played songs or the ones selected as favorites by the user.
+        Resubmiting: Use the MediaPlayer class for getting the user s favorite songs.
+    </string>
+</resources>

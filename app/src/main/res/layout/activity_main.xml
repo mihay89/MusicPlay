@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/play_now"
+        android:src="@drawable/musicnote"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/library"
+        android:src="@drawable/library"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/favorites"
+        android:src="@drawable/favorite"
+        style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/main_activity_text"
+    android:layout_gravity="bottom"/>
+</LinearLayout>
+
